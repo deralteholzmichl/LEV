@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="excel.js"></script>
 </head>
 <body>
-<table class="events">
+<table class="events" id="tableresult">
     <tr>
         <th>Name</th>
         <th>Vorname</th>
@@ -64,7 +65,7 @@
         <td class="teilnehemerBtn"></td>
     </tr>
 
-    <img src="excellogo.png" alt="dfdfd" id="tableresult">
+    <img src="excellogo.png" alt="dfdfd"  onclick="exportExcel()">
 </table>
 
 
@@ -105,6 +106,5 @@
         }
 
     </style>
-    <script src="excel.js"></script>
 </body>
 </html>
