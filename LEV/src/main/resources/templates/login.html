@@ -9,7 +9,7 @@
 <body>
 <div class="anmeldebox" id="anmeldebox">
 	<div class="formular">
-		<form action="/loginService" method="get">
+		<form th:action="@{/loginService}" method="post">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -24,7 +24,7 @@
 		    <label for="inputVorname" class="label">E-Mail:</label>
 		    <input type="email" class="form-control" id="email" name="email" required>
 		    
-		    <label for="inputVorname" class="label">Passwort:</label>
+		    <label for="dsaddas" class="label">Passwort:</label>
 		    <input type="password" class="form-control" id="passwort" name="passwort" required>
 			<p id="pwVergessen">Passwort vergessen?</p>
 			<button class="btn-submitLogin">Anmelden</button>
