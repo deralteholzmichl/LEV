@@ -56,7 +56,7 @@
 	outline:none;
 }
 
-.btn-submitlogin{
+.btn-submitLogin{
 	background-color:#E60000;
 	color:white;
 	border: solid 1px white;
@@ -66,7 +66,7 @@
 	width: 44%;
 }
 
-.btn-submit:hover{
+.btn-submitLogin:hover{
 	color:#E60000;
 	background-color:white;
 	border:solid 1px black;
