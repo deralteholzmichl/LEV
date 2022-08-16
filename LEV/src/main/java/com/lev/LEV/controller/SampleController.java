@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.RedirectView;
 public class SampleController {
     @RequestMapping(value = {  "/loginService" }, method = RequestMethod.POST)
     public String moin(@RequestParam String email, String passwort) {
-        if(email.equals("admin@admin") && passwort.equals("1234")){
+        if(email.equals("admin@admin.com") && passwort.equals("1234")){
             return home();
         }else{
             return login();
