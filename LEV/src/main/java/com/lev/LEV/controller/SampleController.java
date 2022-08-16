@@ -24,7 +24,7 @@ public class SampleController {
 
     @GetMapping("/registrieren")
     public String registrieren() {
-        return("registrierung");
+        return("regestrierung");
     }
 
     @GetMapping("/login")
