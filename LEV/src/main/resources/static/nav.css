@@ -1,0 +1,79 @@
+* {
+	font-family: Arial light;
+}
+
+.registrierBox {
+	width: 400px;
+	height: 590px;
+	background-color: white;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px 0 #757575, 0 3px 10px 0 #757575;
+	font-size: 20px;
+}
+
+.logoRegister {
+	width: 15vh;
+}
+
+.wechsel{
+	text-decoration: none;
+	color: black;
+}
+
+.wechsel:hover{
+	color: red;
+}
+
+.lev {
+	font-size: 15px;
+	margin-top: -7px;
+}
+
+.form-control{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border: solid 1px black;
+	border-radius: 3px;
+	width: 93%;
+	padding: 1.25vh;
+}
+
+.form-control:focus{
+	border: solid 2px #E60000;
+	outline:none;
+}
+
+.btn-submitRegister{
+	background-color:#E60000;
+	color:white;
+	border: solid 1px white;
+	border-radius:6px;
+	margin-top: 30px;;
+	padding: 10px;
+	width: 44%;
+}
+
+.btn-submitRegister:hover{
+	color:#E60000;
+	background-color:white;
+	border:solid 1px black;
+}
+
+.formular {
+	padding: 15px;
+}
+
+#fachrichtung{
+	width: 99.5% !important;
+}
+
+input.form-control:focus{
+	border: solid 2px #E60000;
+	outline: none;
+}

@@ -1,0 +1,64 @@
+* {
+	font-family: Arial light;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 1vh;
+}
+
+thead th {
+  width: 40%;
+}
+
+.events {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eventName {
+      padding-right: 15vh;
+}
+
+.edit {
+    width: 10%;
+}
+
+.löschen {
+    width: 5%;
+}
+
+th {
+    background-color: rgb(238, 238, 238);
+}
+
+tbody {
+    margin-top: 5%;
+}
+
+.btn-add{
+    background-color:#E60000;
+    color:white;
+    border: solid 1px white;
+    border-radius:6px;
+    padding: 10px;
+}
+
+.btn-add:hover{
+    color:#E60000;
+    background-color:white;
+    border:solid 1px black;
+}
+
+.noDesign {
+     border: none;
+}
+
+.symbole {
+    width: 2.5vh;
+}
+
+.bearbeitenBtn, .löschBtn, .teilnehemerBtn {
+    text-align: center;
+}
