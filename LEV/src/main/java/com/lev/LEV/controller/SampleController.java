@@ -3,17 +3,19 @@ package com.lev.LEV.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
 public class SampleController {
-    @GetMapping("/loginService")
+    @RequestMapping(value = {  "/loginService" }, method = RequestMethod.POST)
     public String moin(@RequestParam String email, String passwort) {
-        if(email.equals("lenet.kaup@ubs.com") && passwort.equals("1234")){
-            return"moin";
+        if(email.equals("admin@admin") && passwort.equals("1234")){
+            return home();
         }else{
-            return "index";
+            return login();
         }
     }
 
@@ -24,7 +26,7 @@ public class SampleController {
 
     @GetMapping("/registrieren")
     public String registrieren() {
-        return("registrierung");
+        return("regestrierung");
     }
 
     @GetMapping("/login")
