@@ -6,7 +6,7 @@
 
 .anmeldebox {
 	width: 400px;
-	height: 360px;
+	height: 440px;
 	background-color: white;
 	margin: auto;
 	position: absolute;
@@ -79,4 +79,8 @@
 input.form-control:focus{
 	border: solid 2px #E60000;
 	outline: none;
+}
+
+#pwVergessen {
+    font-size: 10px;
 }
