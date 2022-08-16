@@ -29,6 +29,11 @@ public class SampleController {
         return("regestrierung");
     }
 
+    @GetMapping("/excel")
+    public String excel() {
+        return("excel");
+    }
+
     @GetMapping("/login")
     public String loginService() {
         return "login";

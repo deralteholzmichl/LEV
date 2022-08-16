@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table class="events">
+    <tr>
+        <th>Name</th>
+        <th>Vorname</th>
+        <th>Eventdatum</th>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+    <tr>
+        <td class="bearbeitenBtn"></td>
+        <td class="löschBtn"></td>
+        <td class="teilnehemerBtn"></td>
+    </tr>
+
+    <img src="excellogo.png" alt="dfdfd" id="tableresult">
+</table>
+
+
+
+<script>
+        function exportExcel(){
+          var table2excel = new Table2Excel();
+          table2excel.export(document.querySelectorAll("#tableresult"));
+        }
+</script>
+
+<style>
+        * {
+	    font-family: Arial light;
+        }
+
+        th, td {
+        border: 1px solid black;
+        padding: 1vh;
+        }
+
+        thead th {
+        width: 40%;
+        }
+
+        img{
+          width: 5vh
+        }
+
+        tbody {
+            margin-top: 5%;
+        }
+
+        .bearbeitenBtn, .löschBtn, .teilnehemerBtn {
+            text-align: center;
+            width: 15vh;
+            height: 3vh;
+        }
+
+    </style>
+    <script src="excel.js"></script>
+</body>
+</html>
