@@ -26,9 +26,36 @@ public class SampleController {
     public String registrieren() {
         return("registrieren");
     }
+
+
     @GetMapping("/login")
     public String loginService() {
         return "login";
+    }
+
+    @GetMapping("/home")
+    public String home () {
+        return("home");
+    }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return("admin");
+    }
+
+    @GetMapping("/bearbeiten")
+    public String bearbeiten() {
+        return("bearbeiten");
+    }
+
+    @GetMapping("/event")
+    public String eventseite() {
+        return("eventSeite");
+    }
+
+    @GetMapping("/hinzufügen")
+    public String hinzufügen() {
+        return("hinzufügen");
     }
 
     @GetMapping("/hello")
